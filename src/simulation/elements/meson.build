@@ -191,6 +191,18 @@ simulation_elem_ids = [
 	[ 'VSNS',   189 ],
 	[ 'ROCK',   190 ],
 	[ 'LITH',   191 ],
+        [ 'MUD',    192 ],
+        [ 'CMLK',    193 ],
+        [ 'FLSH',    194 ],
+        [ 'VNGR',    195 ],
+        [ 'BKSD',    196 ],
+        [ 'BEER',    197 ],
+        [ 'BLD',    198 ],
+        [ 'INK',    199 ],
+        [ 'BRED',    200 ],
+        [ 'CHSE',    201 ],
+        [ 'SHNY',    202 ],
+        [ 'HONY',    203 ],
 ]
 
 simulation_elem_src = []

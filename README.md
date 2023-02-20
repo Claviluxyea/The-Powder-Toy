@@ -1,4 +1,4 @@
-The Powder Toy - January 2023
+Elements & UI Plus - February 2023
 ==========================
 
 Get the latest version [from the Powder Toy website](https://powdertoy.co.uk/Download.html).
@@ -6,7 +6,10 @@ Get the latest version [from the Powder Toy website](https://powdertoy.co.uk/Dow
 To use online features such as saving, you need to [register an account](https://powdertoy.co.uk/Register.html).
 You can also visit [the official TPT forum](https://powdertoy.co.uk/Discussions/Categories/Index.html).
 
-Have you ever wanted to blow something up? Or maybe you always dreamt of operating an atomic power plant? Do you have a will to develop your own CPU? The Powder Toy lets you to do all of these, and even more!
+Have you ever wanted to mess with elements like Honey, Vinegar, Baking soda, Mud, Blood, and more? The Elements & UI Plus lets you do all of these and more! I also modified the Appearance.cpp file to improve the UI, making the game look better than ever before. However there are a lot of bugs and i haven't fixed it cuz of me being lazy af.
+
+Screenshot of updated UI:
+![image](https://user-images.githubusercontent.com/125830238/219973999-901aab89-7a2f-438a-a577-242b9b5120d5.png)
 
 The Powder Toy is a free physics sandbox game, which simulates air pressure and velocity, heat, gravity and a countless number of interactions between different substances! The game provides you with various building materials, liquids, gases and electronic components which can be used to construct complex machines, guns, bombs, realistic terrains and almost anything else. You can then mine them and watch cool explosions, add intricate wirings, play with little stickmen or operate your machine. You can browse and play thousands of different saves made by the community or upload your own – we welcome your creations!
 
