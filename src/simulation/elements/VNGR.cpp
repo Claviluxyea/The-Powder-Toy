@@ -58,7 +58,7 @@ static int update(UPDATE_FUNC_ARGS)
                     continue;
                 if (TYP(r) == PT_BKSD && RNG::Ref().chance(1, 10))
                 {
-                    sim->part_change_type(i, x, y, PT_CO2);
+                    sim->part_change_type(i, x, y, PT_FOAM);
                     sim->part_change_type(ID(r), x + rx, y + ry, PT_WATR);
                 }
             }
