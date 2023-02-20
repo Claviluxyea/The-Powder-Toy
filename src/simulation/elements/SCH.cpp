@@ -39,7 +39,7 @@ LowPressureTransition = NT;
 HighPressure = IPH;
 HighPressureTransition = NT;
 LowTemperature = ITL;
-LowTemperatureTransition = ICEI;
+LowTemperatureTransition = NT;
 HighTemperature = 373.0f;
 HighTemperatureTransition = PT_CHOC;
 
@@ -51,7 +51,7 @@ static int update(UPDATE_FUNC_ARGS)
 {
 if (parts[i].temp > 373.0f)
 {
-sim->create_part(i, x, y, PT_CHOCOLATE);
+sim->create_part(i, x, y, PT_CHOC);
 return 1;
 }
 return 0;
