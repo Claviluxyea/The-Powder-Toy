@@ -52,7 +52,7 @@ static int update(UPDATE_FUNC_ARGS)
             if (BOUNDS_CHECK && (rx || ry)) {
                 r = pmap[y + ry][x + rx];
                 if (TYP(r) == PT_VNGR) {
-                    sim->part_change_type(i, x, y, PT_FOAM);
+                    sim->part_change_type(i, x, y, PT_CO2);
                     return 1;
                 }
             }
