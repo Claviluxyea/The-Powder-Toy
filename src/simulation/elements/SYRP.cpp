@@ -29,7 +29,7 @@ void Element::Element_SYRP()
     HeatConduct = 20;
     Description = "Viscous liquid, can stick to some materials.";
 
-    Properties = TYPE_LIQUID | PROP_STICKY | PROP_NEUTPASS;
+    Properties = TYPE_LIQUID | PROP_NEUTPASS;
 
     LowPressure = IPL;
     LowPressureTransition = NT;
