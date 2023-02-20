@@ -39,7 +39,7 @@ LowPressureTransition = NT;
 HighPressure = IPH;
 HighPressureTransition = NT;
 LowTemperature = ITL;
-LowTemperatureTransition = NT;
+LowTemperatureTransition = PT_ICEI;
 HighTemperature = 373.0f;
 HighTemperatureTransition = PT_CHOC;
 

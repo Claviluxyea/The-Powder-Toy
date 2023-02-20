@@ -1,9 +1,9 @@
 #include "simulation/ElementCommon.h"
 
-void Element::Element_SYRUP()
+void Element::Element_SYRP()
 {
-    Identifier = "DEFAULT_PT_SYRUP";
-    Name = "SYRUP";
+    Identifier = "DEFAULT_PT_SYRP";
+    Name = "SYRP";
     Colour = PIXPACK(0x964B00);
     MenuVisible = 1;
     MenuSection = SC_LIQUID;
@@ -32,13 +32,13 @@ void Element::Element_SYRUP()
     Properties = TYPE_LIQUID | PROP_STICKY | PROP_NEUTPASS;
 
     LowPressure = IPL;
-    LowPressureTransition = PT_GAS;
+    LowPressureTransition = NT;
     HighPressure = IPH;
-    HighPressureTransition = PT_LIQUID;
+    HighPressureTransition = NT;
     LowTemperature = ITL;
-    LowTemperatureTransition = PT_SOLID;
+    LowTemperatureTransition = NT;
     HighTemperature = 373.0f;
-    HighTemperatureTransition = PT_GAS;
+    HighTemperatureTransition = NT;
 }
 
 // todo
