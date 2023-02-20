@@ -6,7 +6,7 @@ Get the latest version [from the Powder Toy website](https://powdertoy.co.uk/Dow
 To use online features such as saving, you need to [register an account](https://powdertoy.co.uk/Register.html).
 You can also visit [the official TPT forum](https://powdertoy.co.uk/Discussions/Categories/Index.html).
 
-Have you ever wanted to mess with elements like Honey, Vinegar, Baking soda, Mud, Blood, and more? The Elements & UI Plus lets you do all of these and more! I also modified the Appearance.cpp file to improve the UI, making the game look better than ever before. However there are a lot of bugs and i haven't fixed it cuz of me being lazy af.
+Have you ever wanted to mess with elements like honey, vinegar, baking soda, mud, blood, and more? The Elements & UI Plus lets you do all of these and more! I also modified the appearance.cpp file to improve the UI, making the game look better than ever before. However there are a lot of bugs and i haven't fixed it cuz of me being lazy af.
 
 Screenshot of updated UI:
 ![image](https://user-images.githubusercontent.com/125830238/219973999-901aab89-7a2f-438a-a577-242b9b5120d5.png)
