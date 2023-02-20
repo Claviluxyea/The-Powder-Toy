@@ -203,6 +203,11 @@ simulation_elem_ids = [
         [ 'CHSE',    201 ],
         [ 'SHNY',    202 ],
         [ 'HONY',    203 ],
+        [ 'POLY',    204 ],
+        [ 'CHOC',    205 ],
+        [ 'SCH',    206 ],
+        [ 'JICE',    207 ],
+        [ 'SYRP',    208 ],
 ]
 
 simulation_elem_src = []
