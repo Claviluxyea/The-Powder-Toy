@@ -32,11 +32,11 @@ void Element::Element_JICE()
 	Properties = TYPE_LIQUID | PROP_NEUTPASS;
 
 	LowPressure = IPL;
-	LowPressureTransition = PT_GAS;
+	LowPressureTransition = NT;
 	HighPressure = IPH;
 	HighPressureTransition = NT;
 	LowTemperature = ITL;
 	LowTemperatureTransition = PT_ICEI;
 	HighTemperature = 333.0f;
-	HighTemperatureTransition = PT_GAS;
+	HighTemperatureTransition = NT;
 }

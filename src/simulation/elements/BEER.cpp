@@ -41,7 +41,7 @@ void Element::Element_BEER()
 	LowTemperature = 273.15f;
 	LowTemperatureTransition = PT_ICEI;
 	HighTemperature = 373.0f;
-	HighTemperatureTransition = PT_GAS;
+	HighTemperatureTransition = NT;
 
 	Update = &update;
 }

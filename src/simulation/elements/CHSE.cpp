@@ -41,7 +41,7 @@ HighPressureTransition = NT;
 LowTemperature = ITL;
 LowTemperatureTransition = PT_ICEI;
 HighTemperature = 373.0f;
-HighTemperatureTransition = PT_FIRE;
+HighTemperatureTransition = NT;
 
 Update = &update;
 Graphics = &graphics;

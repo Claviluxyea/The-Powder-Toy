@@ -208,6 +208,8 @@ simulation_elem_ids = [
         [ 'SCH',    206 ],
         [ 'JICE',    207 ],
         [ 'SYRP',    208 ],
+        [ 'FOAM',    209 ],
+        [ 'TPST',    210 ],
 ]
 
 simulation_elem_src = []

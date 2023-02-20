@@ -38,5 +38,5 @@ void Element::Element_CMLK()
 	LowTemperature = ITL;
 	LowTemperatureTransition = NT;
 	HighTemperature = 333.0f;
-	HighTemperatureTransition = PT_GAS;
+	HighTemperatureTransition = NT;
 }

@@ -27,7 +27,8 @@ inline ByteString IntroText()
 	      "Contributors: \bgStanislaw K Skowronek (Designed the original Powder Toy),\n"
 	      "\bgSimon Robertshaw, Skresanov Savely, cracker64, Catelite, Bryan Hoyle, Nathan Cousins, jacksonmj,\n"
 	      "\bgFelix Wallin, Lieuwe Mosch, Anthony Boot, Me4502, MaksProg, jacob1, mniip, LBPHacker\n"
-               "TPT Elements & UI Mod \btv0.1.0\n"
+
+               "TPT Elements & UI Mod \btv0.1.2\n"
 	      "\n";
 	if constexpr (BETA)
 	{

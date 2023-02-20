@@ -36,7 +36,7 @@ void Element::Element_FLSH()
     Properties = TYPE_SOLID | PROP_NEUTPENETRATE;
 
     LowPressure = IPL;
-    LowPressureTransition = PT_GAS;
+    LowPressureTransition = NT;
     HighPressure = IPH;
     HighPressureTransition = PT_BLD;
     LowTemperature = ITL;

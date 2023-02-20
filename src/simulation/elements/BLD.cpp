@@ -41,7 +41,7 @@ void Element::Element_BLD()
 	LowTemperature = ITL;
 	LowTemperatureTransition = NT;
 	HighTemperature = 333.0f;
-	HighTemperatureTransition = PT_GAS;
+	HighTemperatureTransition = NT;
 
 	Update = &update;
 }
