@@ -4,7 +4,7 @@
 void Element::Element_POLY()
 {
     Identifier = "DEFAULT_PT_POLY";
-    Name = "POLY;
+    Name = "POLY";
     Colour = PIXPACK(0xC8A2C8);
     MenuVisible = 1;
     MenuSection = SC_SOLIDS;
