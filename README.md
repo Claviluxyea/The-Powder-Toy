@@ -1,7 +1,8 @@
 Elements & UI Plus - February 2023
 ==========================
+![image](https://img.shields.io/github/downloads/Claviluxyea/The-Powder-Toy/total)
+![image](https://img.shields.io/github/repo-size/Claviluxyea/The-Powder-Toy)
 
-Get the latest version [from the Powder Toy website](https://powdertoy.co.uk/Download.html).
 
 To use online features such as saving, you need to [register an account](https://powdertoy.co.uk/Register.html).
 You can also visit [the official TPT forum](https://powdertoy.co.uk/Discussions/Categories/Index.html).
