@@ -3,10 +3,10 @@
 static int graphics(GRAPHICS_FUNC_ARGS);
 static void create(ELEMENT_CREATE_FUNC_ARGS);
 
-void Element::Element_SANDSTONE()
+void Element::Element_SDST()
 {
-    Identifier = "DEFAULT_PT_SANDSTONE";
-    Name = "SANDSTONE";
+    Identifier = "DEFAULT_PT_SDST";
+    Name = "SDST";
     Colour = PIXPACK(0xd2b48c); 
     MenuVisible = 1;
     MenuSection = SC_SOLIDS;
