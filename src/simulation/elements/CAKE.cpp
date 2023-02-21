@@ -1,9 +1,5 @@
 #include "simulation/ElementCommon.h"
 
-int Element_CAKE_update(UPDATE_FUNC_ARGS);
-static int graphics(GRAPHICS_FUNC_ARGS);
-static void create(ELEMENT_CREATE_FUNC_ARGS);
-
 void Element::Element_CAKE()
 {
     Identifier = "DEFAULT_PT_CAKE";
@@ -44,30 +40,4 @@ void Element::Element_CAKE()
     HighTemperature = 373.0f;
     HighTemperatureTransition = NT;
 
-    Update = &Element_CAKE_update;
-    Graphics = &graphics;
-    Create = &create;
-}
-
-static int graphics(GRAPHICS_FUNC_ARGS)
-{
-    int colr = 0x9C;
-    int colg = 0x66;
-    int colb = 0x1F;
-    *firea = 0;
-    *firer = colr;
-    *fireg = colg;
-    *fireb = colb;
-    *pixel_mode = 0;
-    return 0;
-}
-
-int Element_CAKE_update(UPDATE_FUNC_ARGS)
-{
-    return 0;
-}
-
-static void create(ELEMENT_CREATE_FUNC_ARGS)
-{
-    sim->parts[i].life = 1000;
 }
