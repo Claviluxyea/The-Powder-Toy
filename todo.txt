@@ -5,7 +5,7 @@ Soy sauce
 Toothpaste - kinda useless but done
 Sandstone
 Concrete
-Platinum
+Platinum ---- already exists so no
 Graphite
 Epoxy
 
