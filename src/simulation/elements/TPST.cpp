@@ -7,7 +7,7 @@ void Element::Element_TPST() {
 	Identifier = "DEFAULT_PT_TPST";
 	Name = "TPST";
 	Colour = PIXPACK(0xFFFFFF);
-	MenuVisible = 1;
+	MenuVisible = 0;
 	MenuSection = SC_SPECIAL;
 	Enabled = 1;
 

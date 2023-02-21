@@ -35,13 +35,13 @@ void Element::Element_HONY()
     Properties = TYPE_LIQUID | PROP_NEUTPASS;
 
     LowPressure = IPL;
-    LowPressureTransition = PT_GAS;
+    LowPressureTransition = NT;
     HighPressure = IPH;
     HighPressureTransition = NT;
     LowTemperature = ITL;
     LowTemperatureTransition = PT_SHNY;
     HighTemperature = 333.0f;
-    HighTemperatureTransition = PT_GAS;
+    HighTemperatureTransition = NT;
     Update = &update;
     Graphics = &graphics;
 }

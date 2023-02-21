@@ -45,22 +45,26 @@ void Element::Element_VNGR()
 
     Update = &update;
 }
+// stolen code from Bowserinator :skull:
+static int update(UPDATE_FUNC_ARGS) {
+	int rx, ry, r, rt;
+	for (rx = -1; rx <= 1; rx++)
+	for (ry = -1; ry <= 1; ry++)
+		if (BOUNDS_CHECK && (rx || ry)) {
+			r = pmap[y + ry][x + rx];
+			if (!r) continue;
+			rt = TYP(r);
 
-static int update(UPDATE_FUNC_ARGS)
-{
-    int r, rx, ry;
-    for (rx = -1; rx < 2; rx++)
-        for (ry = -1; ry < 2; ry++)
-            if (BOUNDS_CHECK && (rx || ry))
-            {
-                r = pmap[y + ry][x + rx];
-                if (!r)
-                    continue;
-                if (TYP(r) == PT_BKSD && RNG::Ref().chance(1, 10))
-                {
-                    sim->part_change_type(i, x, y, PT_CO2);
-                    sim->part_change_type(ID(r), x + rx, y + ry, PT_WATR);
-                }
-            }
-    return 0;
+			if (rt == PT_BKSD && RNG::Ref().chance(1, 50)) {
+				sim->pv[y / CELL][x / CELL] += 0.6f;
+				sim->part_change_type(i, x, y, PT_FOAM);
+				sim->part_change_type(ID(r), x + rx, y + ry, PT_FOAM);
+				parts[i].tmp = parts[ID(r)].tmp = 70;
+				parts[i].life = parts[ID(r)].life = 200;
+				parts[i].temp += 5.0f;
+				return 1;
+			}
+		}
+
+	return 0;
 }
