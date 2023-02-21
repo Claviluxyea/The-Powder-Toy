@@ -212,7 +212,6 @@ simulation_elem_ids = [
         [ 'TPST',    210 ],
         [ 'SDST',    211 ],
         [ 'EPOX',    212 ],
-        [ 'GELA',    213 ],
         [ 'CAKE',    214 ],
 ]
 
