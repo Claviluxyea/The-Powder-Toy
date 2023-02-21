@@ -1,9 +1,5 @@
 #include "simulation/ElementCommon.h"
 
-static int graphics(GRAPHICS_FUNC_ARGS);
-static void update(UPDATE_FUNC_ARGS);
-static void serialize(SERIALIZE_FUNC_ARGS);
-
 void Element::Element_EPOX()
 {
     Identifier = "DEFAULT_PT_EPOX";
@@ -44,34 +40,4 @@ void Element::Element_EPOX()
     HighTemperature = 453;
     HighTemperatureTransition = PT_GAS;
 
-    Graphics = &graphics;
-    Update = &update;
-    Serialize = &serialize;
-}
-
-static int graphics(GRAPHICS_FUNC_ARGS)
-{
-    *pixel_mode = 0;
-    *colr = 128;
-    *colg = 128;
-    *colb = 128;
-    return 0;
-}
-
-static void update(UPDATE_FUNC_ARGS)
-{
-    for (int i = 0; i < 4; i++)
-    {
-        int npos = sim->photons[x][y][i];
-        if (!npos) continue;
-        if (sim->pv[npos] != PT_GAS) continue;
-        int npx = npos % sim->xres;
-        int npy = npos / sim->xres;
-        sim->create_part(npx, npy, PT_EPOX);
-    }
-}
-
-static void serialize(SERIALIZE_FUNC_ARGS)
-{
-    SERIALIZE_DEFAULT_ELEMENT_VARS();
 }

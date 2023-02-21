@@ -1,6 +1,6 @@
 #include "simulation/ElementCommon.h"
 
-int Element_JELLO_update(UPDATE_FUNC_ARGS);
+int Element_GELA_update(UPDATE_FUNC_ARGS);
 static int graphics(GRAPHICS_FUNC_ARGS);
 static void create(ELEMENT_CREATE_FUNC_ARGS);
 
