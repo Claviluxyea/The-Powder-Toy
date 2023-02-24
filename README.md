@@ -1,4 +1,4 @@
-Elements & UI Plus - February 2023
+Elements & UI Plus - February 2023 / A fun TPT mod
 ==========================
 ![image](https://img.shields.io/github/downloads/Claviluxyea/The-Powder-Toy/total)
 ![image](https://img.shields.io/github/repo-size/Claviluxyea/The-Powder-Toy)
