@@ -41,3 +41,5 @@ void Element::Element_POLY()
     HighTemperature = 573.0f;
     HighTemperatureTransition = PT_FIRE;
 }
+
+// todo: make it burn
